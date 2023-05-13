@@ -5,7 +5,6 @@ export class CreatePokemonDto {
 
     @IsInt()
     @IsPositive()
-    @IsNotEmpty()
     @Min(1)
     no: number;
     
